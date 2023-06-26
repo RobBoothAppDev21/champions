@@ -1,0 +1,130 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  background: #1B1924;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 50px auto 20px auto;
+  max-width: 400px;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+
+img {
+  width: 90px;
+  height: 90px;
+}
+
+#title {
+  font-weight: 600px;
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#input-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 20px 15px 20px;
+}
+
+#endorsement-input {
+  height: 118px;
+  width: 100%;
+  background-color: #444059;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 12px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  resize: none;
+}
+
+
+#endorse-inp::placeholder {
+  color: #8F8F8F;
+}
+
+.name-input {
+  background-color: #444059;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 12px 0px;
+  border-radius: 8px;
+  text-align: center;
+  border: none;
+}
+
+.name-input::placeholder {
+  color: #8F8F8F;
+}
+
+#publish-btn {
+  background-color: #28A9F1;
+  color: #04131C;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+#endorsements-header {
+  margin: 0px;
+}
+
+#endorsements-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-size: 12px; 
+  width: 360px;
+  margin-top: 10px;
+}
+
+.endorsement {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background: #FFFFFF;
+  color: #1B1924;
+  text-align: left;
+  margin-bottom: 10px;
+  padding: 16px;
+  border-radius: 8px;
+  row-gap: 10px;
+}
+
+.recipient {
+  font-weight: 700;
+  margin: 0;
+}
+
+.message {
+  overflow-wrap: break-word;
+  margin: 0;
+}
+
+.sender {
+  font-weight: 700;
+  margin: 0;
+}
